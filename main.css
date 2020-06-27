@@ -1,0 +1,23 @@
+.circle {
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    border: 3px solid black;
+  }
+p{
+    margin:10px;
+    padding: 3px;
+}
+#container{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    justify-content: center;
+}
+h1{
+    justify-content: center;
+    display: flex;
+}
