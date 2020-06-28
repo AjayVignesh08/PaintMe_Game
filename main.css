@@ -83,6 +83,7 @@ span{
         position: absolute;
         top: 25%;
         left: 20%;
+        min-width: 100%;
         justify-content: center;
     }
     h1{
@@ -96,18 +97,23 @@ span{
         display: flex;
         font-size: large;
     }
+    h2{
+        font-size: small;
+    }
     span{
         position: relative;
         top: 40px;
-        left: -200px;
+        left: -180px;
         height: 20px;
-        width: 20px;
+        width: 15px;
         display:inline-block;   
     }
     #myBtn{
         position: absolute;
         top: 150px;
         left: 50px;
+        height: 30px;
+        width: 60px;
         border-radius: 5px;
         background-color: rgb(187, 62, 62);
     }
@@ -115,6 +121,8 @@ span{
         position: absolute;
         top: 150px;
         left: 150px;
+        height: 30px;
+        width: 60px;
         border-radius: 5px;
         background-color: rgb(187, 62, 62);
     
@@ -136,7 +144,7 @@ span{
 
 
   }
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 380px) {
     body {
       background-color: lightskyblue;
     }
@@ -288,7 +296,7 @@ span{
   }
 @media only screen and (min-width: 768px) {
     body {
-      background-color: lightblue;
+      background-color: lightpink;
     }
     .circle {
         padding: 10px;
@@ -357,7 +365,7 @@ span{
 
 
   }
-@media only screen and (min-width: 1240px) {
+/* @media only screen and (min-width: 1240px) {
     body {
       background-color: lightgray;
     }
@@ -370,7 +378,7 @@ span{
         display: inline-block;
         border: 2px solid black;
         position: relative;
-        top: 400px;
+        top: 200px;
       }
     #container{
         position: absolute;
@@ -383,12 +391,12 @@ span{
         font-weight: lighter;
         color: gray;
         position: absolute;
-        top: -120px;
+        top: -160px;
         left: 190px;
         text-align: center;
         justify-content: center;
         display: flex;
-        font-size: 180px;
+        font-size: 130px;
     }
     h2{
         font-family: 'Assistant', sans-serif;
@@ -407,7 +415,7 @@ span{
     }
     #myBtn{
         position: absolute;
-        top: 1250px;
+        top: 750px;
         left: 50px;
         width: 300px;
         height: 80px;
@@ -416,7 +424,7 @@ span{
     }
     #myBtn2{
         position: absolute;
-        top: 1250px;
+        top: 50px;
         left: 600px;
         width: 300px;
         height: 80px;
@@ -427,16 +435,17 @@ span{
         top: 150px;
         left: 150px;
         border-radius: 5px;
-        background-color: rgb(187, 62, 62); */
+        background-color: rgb(187, 62, 62); 
     
     }
     .heart{
         padding: 3px;
         position: absolute;
-        top: -60px;
+        top: 80px;
         height: 200px;
-        left: 200px;
+        left: 800px;
         color: red;
+        
     }
     #score{
         position: absolute;
@@ -447,4 +456,4 @@ span{
     }
 
 
-  }
+  } */
