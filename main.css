@@ -5,7 +5,7 @@
     background-color: white;
     border-radius: 50%;
     display: inline-block;
-    border: 3px solid black;
+    border: 2px solid black;
   }
 p{
     margin:10px;
@@ -15,9 +15,436 @@ p{
     position: absolute;
     top: 25%;
     left: 20%;
+    min-width: 100%;
     justify-content: center;
 }
 h1{
+    font-family: 'Assistant', sans-serif;
+    font-weight: lighter;
+    color: gray;
+    position: absolute;
+    top: -100px;
+    left: 400px;
     justify-content: center;
     display: flex;
 }
+span{
+    position: relative;
+    top: 100px;
+    left: -500px;
+    height: 40px;
+    width: 100px;
+    display:inline-block;   
+}
+
+#myBtn{
+    position: absolute;
+    top: 350px;
+    left: 300px;
+    border-radius: 5px;
+    background-color: rgb(187, 62, 62);
+}
+#myBtn2{
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    border-radius: 5px;
+    background-color: rgb(187, 62, 62);
+
+}
+.heart{
+    padding: 3px;
+    position: absolute;
+    top: -60px;
+    left: 700px;
+    color: red;
+}
+#score{
+    position: absolute;
+    top: -60px;
+    height: 30px;
+    width: 110px;
+    border: 1px solid black;
+}
+@media only screen and (min-width: 200px) {
+    body {
+      background-color: lightcyan;
+    }
+    .circle {
+        padding: 10px;
+        height: 20px;
+        width: 20px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        border: 2px solid black;
+      }
+    #container{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        justify-content: center;
+    }
+    h1{
+        font-family: 'Assistant', sans-serif;
+        font-weight: lighter;
+        color: gray;
+        position: absolute;
+        top: -70px;
+        left: 100px;
+        justify-content: center;
+        display: flex;
+        font-size: large;
+    }
+    span{
+        position: relative;
+        top: 40px;
+        left: -200px;
+        height: 20px;
+        width: 20px;
+        display:inline-block;   
+    }
+    #myBtn{
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        border-radius: 5px;
+        background-color: rgb(187, 62, 62);
+    }
+    #myBtn2{
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        border-radius: 5px;
+        background-color: rgb(187, 62, 62);
+    
+    }
+    .heart{
+        padding: 3px;
+        position: absolute;
+        top: -60px;
+        left: 200px;
+        color: red;
+    }
+    #score{
+        position: absolute;
+        top: -60px;
+        height: 20px;
+        width: 70px;
+        border: 1px solid black;
+    }
+
+
+  }
+@media only screen and (min-width: 360px) {
+    body {
+      background-color: lightskyblue;
+    }
+    .circle {
+        padding: 10px;
+        height: 20px;
+        width: 20px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        border: 2px solid black;
+      }
+    #container{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        justify-content: center;
+    }
+    h1{
+        font-family: 'Assistant', sans-serif;
+        font-weight: lighter;
+        color: gray;
+        position: absolute;
+        top: -70px;
+        left: 100px;
+        justify-content: center;
+        display: flex;
+        font-size: large;
+    }
+    span{
+        position: relative;
+        top: 40px;
+        left: -200px;
+        height: 20px;
+        width: 20px;
+        display:inline-block;   
+    }
+    #myBtn{
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        border-radius: 5px;
+        background-color: rgb(187, 62, 62);
+    }
+    #myBtn2{
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        border-radius: 5px;
+        background-color: rgb(187, 62, 62);
+    
+    }
+    .heart{
+        padding: 3px;
+        position: absolute;
+        top: -60px;
+        left: 200px;
+        color: red;
+    }
+    #score{
+        position: absolute;
+        top: -60px;
+        height: 20px;
+        width: 70px;
+        border: 1px solid black;
+    }
+
+
+  }
+@media only screen and (min-width: 500px) {
+    body {
+      background-color: linen;
+    }
+    .circle {
+        padding: 10px;
+        height: 20px;
+        width: 20px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        border: 2px solid black;
+      }
+    #container{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        justify-content: center;
+    }
+    h1{
+        font-family: 'Assistant', sans-serif;
+        font-weight: lighter;
+        color: gray;
+        position: absolute;
+        top: -70px;
+        left: 100px;
+        justify-content: center;
+        display: flex;
+        font-size: large;
+        color: black;
+    }
+    h2{
+        text-align: center;
+    }
+    span{
+        position: relative;
+        top: 40px;
+        left: -240px;
+        height: 20px;
+        width: 40px;
+        display:inline-block; 
+        align-items: center;  
+    }
+    #myBtn{
+        position: absolute;
+        top: 150px;
+        width: 90px;
+        height: 40px;
+        left: 30px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: rgb(187, 62, 62);
+    }
+    #myBtn2{
+        position: absolute;
+        top: 150px;
+        width: 90px;
+        height: 40px;
+        left: 150px;
+        border-radius: 5px;
+        background-color: rgb(187, 62, 62);
+    
+    }
+    .heart{
+        padding: 3px;
+        position: absolute;
+        top: -60px;
+        left: 200px;
+        color: red;
+    }
+    #score{
+        position: absolute;
+        top: -60px;
+        height: 20px;
+        width: 70px;
+        border: 1px solid black;
+    }
+
+
+  }
+@media only screen and (min-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+    .circle {
+        padding: 10px;
+        height:70px;
+        width: 70px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        border: 2px solid black;
+      }
+    #container{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        justify-content: center;
+    }
+    h1{
+        font-family: 'Assistant', sans-serif;
+        font-weight: lighter;
+        color: gray;
+        position: absolute;
+        top: -100px;
+        left: 200px;
+        justify-content: center;
+        display: flex;
+        font-size:xx-large;
+    }
+    span{
+        position: relative;
+        top: 60px;
+        left: -350px;
+        height: 20px;
+        width: 40px;
+        display:inline-block;   
+    }
+    #myBtn{
+        position: absolute;
+        top: 250px;
+        left: 50px;
+        border-radius: 5px;
+        background-color: rgb(187, 62, 62);
+    }
+    #myBtn2{
+        position: absolute;
+        top: 250px;
+        left: 250px;
+        border-radius: 5px;
+        background-color: rgb(187, 62, 62);
+    
+    }
+    .heart{
+        padding: 3px;
+        position: absolute;
+        top: -60px;
+        left: 400px;
+        color: red;
+    }
+    #score{
+        position: absolute;
+        top: -60px;
+        height: 20px;
+        width: 70px;
+        border: 1px solid black;
+    }
+
+
+
+  }
+@media only screen and (min-width: 1240px) {
+    body {
+      background-color: lightgray;
+    }
+    .circle {
+        padding: 10px;
+        height: 190px;
+        width: 190px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        border: 2px solid black;
+        position: relative;
+        top: 400px;
+      }
+    #container{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        justify-content: center;
+    }
+    h1{
+        font-family: 'Assistant', sans-serif;
+        font-weight: lighter;
+        color: gray;
+        position: absolute;
+        top: -120px;
+        left: 190px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-size: 180px;
+    }
+    h2{
+        font-family: 'Assistant', sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        color: white;
+        font-size: 40px;
+    }
+    span{
+        position: relative;
+        top: 700px;
+        left: -900px;
+        height: 100px;
+        width:80px;
+        display:inline-block;   
+    }
+    #myBtn{
+        position: absolute;
+        top: 1250px;
+        left: 50px;
+        width: 300px;
+        height: 80px;
+        border-radius: 5px;
+        background-color: rgb(187, 62, 62);
+    }
+    #myBtn2{
+        position: absolute;
+        top: 1250px;
+        left: 600px;
+        width: 300px;
+        height: 80px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgb(187, 62, 62);
+        /* position: absolute;
+        top: 150px;
+        left: 150px;
+        border-radius: 5px;
+        background-color: rgb(187, 62, 62); */
+    
+    }
+    .heart{
+        padding: 3px;
+        position: absolute;
+        top: -60px;
+        height: 200px;
+        left: 200px;
+        color: red;
+    }
+    #score{
+        position: absolute;
+        top: -60px;
+        height: 20px;
+        width: 70px;
+        border: 1px solid black;
+    }
+
+
+  }

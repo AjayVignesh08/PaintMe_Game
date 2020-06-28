@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paint Me</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="randomcolor()">
     <div id="container">
         <div id="circle"></div>
-        <div class="heart"></div>
-        <div class="color"></div>
-        <div class="check"></div>
+        <div id="score">
+        </div>
+        <div class="heart">
+            <i class="fa fa-heart" id="first" aria-hidden="true"></i>
+            <i class="fa fa-heart" id="middle" aria-hidden="true"></i>
+            <i class="fa fa-heart" id="last" aria-hidden="true"></i>
+        </div>
+        <div class="color" id="color"></div>
+        <button type="button" id="myBtn" onclick="check()"><h2>Check</h2></button>
+        <button type="button" id="myBtn2" onclick="restart()"><h2>Restart</h2></button>
     </div>
     <script src="script.js"></script>
+    <script src="https://use.fontawesome.com/a73b65274c.js"></script>
 </body>
 </html>
